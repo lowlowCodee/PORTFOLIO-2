@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+#myPic {
+    width: 390px;
+    height: 540px;
+    border-radius: 20px;
+    box-shadow: 15px 30px 20px rgba(0, 0, 2, 0.5), 0 6px 6px rgba(0, 0, 0, 0.15);
+
+}
+
+.logos {
+    display: flex;
+    gap: 25px;
+    width: 120;
+
+
+}
+
+ion-icon {
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ion-icon:hover {
+    transform: scale(1.2);
+}
+
+#myPic {
+    max-width: 100%;
+
+    height: auto;
+
+    border-radius: 20px;
+
+}
+
+.logos ion-icon {
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
+
+}
+
+.logos ion-icon:hover {
+    transform: scale(1.2);
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .logos ion-icon {
+        font-size: 1.5rem;
+    }
+}
